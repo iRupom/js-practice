@@ -26,17 +26,17 @@ console.log(arr3);
 console.log(arr4);
 
 
-// var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// var len = array.length -1;
+var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var len = array.length -1;
 
-// for (let i = 0; i <= len/2; i++) {
-//     var element = array[i];
-//     array[i] = array[len - i];
-//     array[len - i] = element;
-// }
+for (let i = 0; i <= len/2; i++) {
+    var element = array[i];
+    array[i] = array[len - i];
+    array[len - i] = element;
+}
 
-// var array2 = array.reverse();
-// array2 = array2.reverse();
+var array2 = array.reverse();
+array2 = array2.reverse();
 
-// console.log(array);
-// console.log(array2);
+console.log(array);
+console.log(array2);
